@@ -24,7 +24,7 @@ This program requires the use of node.js
    - Check if the Web Api Key has a key in the General tab
        - if Web Api key is not there Enable Authentication by going to the left bar. It should be in the Build tab. Authorize email/password sign-in method
 
-#Transfering the KB
+# Transfering the KB
 1. Apply the information for Project settings' general page to the transfer.js file
 
 2. run node transfer.js
