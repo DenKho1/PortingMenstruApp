@@ -50,4 +50,8 @@ async function transferData(sourceCollection, destinationCollection) {
 transferData("Symptoms", "Symptoms");
 transferData("Label", "Label");
 transferData("Conditions", "Conditions");
+transferData("Dialogue", "Dialogue");
+transferData("regex", "regex");
+transferData("lookup", "lookup");
+transferData("intent", "intent");
 
