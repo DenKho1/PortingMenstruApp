@@ -30,7 +30,7 @@ This program requires the use of node.js
 2. run node transfer.js
 
 
-#JSON IMPORT AND EXPORT
+# JSON IMPORT AND EXPORT
 
 To Export data from a Firestore Database into a json file, the following steps must be used
 1. Set the Firestore Database's rules to allow read: if true;
