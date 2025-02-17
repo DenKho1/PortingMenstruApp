@@ -28,3 +28,19 @@ This program requires the use of node.js
 1. Apply the information for Project settings' general page to the transfer.js file
 
 2. run node transfer.js
+
+
+#JSON IMPORT AND EXPORT
+
+To Export data from a Firestore Database into a json file, the following steps must be used
+1. Set the Firestore Database's rules to allow read: if true;
+2. Download a service account json credentials in the Firebase project's settings under Service account. Select the python option and click Generate private key
+3. Rename the downloaded json file as "service_acc.json" and place in the same folder as exportjson.py
+4. Run exportjson.py
+
+To import data from a json file into a FireStore Database, the following steps must be used
+1. Set the Firestore Database's rules to "allow write: if true;" Make sure to save the previous rule in place as leaving this on can be dangerous.
+2. Download a service account json credentials in the Firebase project's settings under Service account. Select the python option and click Generate private key
+3. Rename the downloaded json file as "service_acc.json" and place in the same folder as importjson.py
+4. Run importjson.py
+5. Reinstate the previous write rule
