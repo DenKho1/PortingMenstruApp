@@ -26,8 +26,8 @@ This program requires the use of node.js
 
 # Transfering the KB
 1. Apply the information for Project settings' general page to the transfer.js file
-
-2. run node transfer.js
+     -Set destinationConfig to the Web Api Info with instructions
+3. run node transfer.js
 
 
 # JSON IMPORT AND EXPORT
